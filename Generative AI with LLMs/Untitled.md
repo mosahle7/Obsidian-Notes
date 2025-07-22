@@ -37,3 +37,23 @@ Uses encoder's contextual understanding to generate new tokens.
 **Self-Attention:** Each token attends to other tokens in same sequence.
 **Cross-Attention:** Decoder attends to encoder's output.
 **Multi-Headed Attention:** Multiple attention heads capture different patterns like subject-verb pairs, long range dependencies, punctuation or sentence structure.
+
+**Residual Connection:**
+
+Technique used in deep neural networks (including Transformers) to help with training by **adding the input of a layer back to its output**.
+
+**Output = x + F(x)**
+
+- Prevents vanishing gradients.
+- Preserve original information from earlier layers.
+- Eases training.
+
+**Transformer in Machine Translation**:
+
+1. **Encoder** reads the input sentence and converts it into a **context-representation** using **self-attention**.
+
+2. **Decoder** generates translated sentence one token at a time using:
+- Encoder's output (via **Cross-Attention**)
+- Previously generated tokens (via **Self-Attention**)
+
+3. This continues until a special <end> token is predicted.
