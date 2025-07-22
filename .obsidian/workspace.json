@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Sequence Models/Coursera DNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Coursera DNN"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,15 +196,15 @@
   },
   "active": "1c93db89dcd0dfae",
   "lastOpenFiles": [
+    "Web Dev/Backend ji.md",
+    "Sequence Models/Recurrent Neural Networks.md",
+    "README.md",
     "Coursera ML/Supervised Learning.md",
     "Coursera ML/Coursera ML.md",
-    "Web Dev/Backend.md",
-    "README.md",
     "2025-07-22.md",
     "Untitled.canvas",
     "Web Dev",
     "Generative AI with LLMs/Untitled.md",
-    "Sequence Models/Recurrent Neural Networks.md",
     "Generative AI with LLMs",
     "Welcome.md",
     "Untitled.md",
