@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Dev/Backend.md",
+                "file": "Generative AI with LLMs/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backend"
+              "title": "Untitled"
             }
           },
           {
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -180,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,12 +197,12 @@
   },
   "active": "1c93db89dcd0dfae",
   "lastOpenFiles": [
+    "Web Dev/Backend.md",
     "Generative AI with LLMs/Untitled.md",
     "Coursera ML/Advanced Learning Algorithms.md",
     "Coursera ML/Coursera ML.md",
     "Coursera ML/Supervised Learning.md",
     "Sequence Models/Coursera DNN.md",
-    "Web Dev/Backend.md",
     "Sequence Models/Recurrent Neural Networks.md",
     "README.md",
     "2025-07-22.md",
