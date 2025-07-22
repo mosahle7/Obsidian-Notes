@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coursera ML/Supervised Learning.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervised Learning"
+              "title": "README"
             }
           },
           {
@@ -193,14 +193,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9222dad372a31bca",
+  "active": "1c93db89dcd0dfae",
   "lastOpenFiles": [
+    "Coursera ML/Supervised Learning.md",
     "Coursera ML/Coursera ML.md",
     "Web Dev/Backend.md",
     "README.md",
     "2025-07-22.md",
     "Untitled.canvas",
-    "Coursera ML/Supervised Learning.md",
     "Web Dev",
     "Generative AI with LLMs/Untitled.md",
     "Sequence Models/Recurrent Neural Networks.md",

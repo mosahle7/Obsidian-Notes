@@ -1,5 +1,5 @@
 
-#### **Linear Regressio**:
+#### **Linear Regression**:
 
 CF: **Mean Squared Error**
 Gradient Descent
