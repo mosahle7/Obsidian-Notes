@@ -56,4 +56,10 @@ Technique used in deep neural networks (including Transformers) to help with tra
 - Encoder's output (via **Cross-Attention**)
 - Previously generated tokens (via **Self-Attention**)
 
-3. This continues until a special <end> token is predicted.
+1. This continues until a special "end" token is predicted.
+
+**In-Context Learning:** Providing examples inside context window
+
+
+
+
