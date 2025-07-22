@@ -36,4 +36,4 @@ Uses encoder's contextual understanding to generate new tokens.
 
 **Self-Attention:** Each token attends to other tokens in same sequence.
 **Cross-Attention:** Decoder attends to encoder's output.
-**Multi-Headed Attention:** Multiple attention heads capture different patterrns.
+**Multi-Headed Attention:** Multiple attention heads capture different patterns like subject-verb pairs, long range dependencies, punctuation or sentence structure.
