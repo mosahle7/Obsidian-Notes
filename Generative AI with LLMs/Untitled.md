@@ -60,6 +60,6 @@ Technique used in deep neural networks (including Transformers) to help with tra
 
 **In-Context Learning:** Providing examples inside context window
 
-
+**Encodi**
 
 

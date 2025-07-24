@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt Engineering.md",
+                "file": "Generative AI with LLMs/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt Engineering"
+              "title": "Untitled"
             }
           }
         ],
@@ -198,8 +198,8 @@
   },
   "active": "18ca82a4af5a065e",
   "lastOpenFiles": [
-    "Generative AI with LLMs/Untitled.md",
     "Prompt Engineering.md",
+    "Generative AI with LLMs/Untitled.md",
     "Coursera ML/Supervised Learning.md",
     "Sequence Models/Recurrent Neural Networks.md",
     "Web Dev/Backend.md",
