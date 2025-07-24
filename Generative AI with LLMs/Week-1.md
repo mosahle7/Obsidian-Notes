@@ -102,3 +102,6 @@ Question answering
 **Compute Budeget:**
 
 **petaflop/s-day:** floating point operations performed at rate of 1 petaFLOP per second for one day
+
+**Chinchilla Paper**
+
