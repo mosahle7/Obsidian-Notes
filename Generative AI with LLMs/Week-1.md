@@ -105,3 +105,5 @@ Question answering
 
 **Chinchilla Paper**
 
+**BllombergGPT:** Decoder-only language model for Finance-related natural language text.
+
