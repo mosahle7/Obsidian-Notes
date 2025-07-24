@@ -98,3 +98,7 @@ Question answering
 **FP32 to FP16:** 4 bytes to 2 bytes
 **BF16:** Truncated FP32 (2 bytes), popular choice: maintains dynamic range of FP32, reduces memory into half.
 **FP32 to INT8:** 4 bytes to 1 byte.
+
+**Compute Budeget:**
+
+**petaflop/s-day:** floating point operations performed at rate of 1 petaFLOP per second for one day
