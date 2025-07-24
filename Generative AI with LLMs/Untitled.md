@@ -26,11 +26,11 @@ Encodes input sequences into a deep representation of structure and meaning of i
 
 Uses encoder's contextual understanding to generate new tokens.
 
-**Encoder only Model:** Understanding tasks where input and output are aligned in length. Tasks like POS Tagging, NER, etc. **Bert**
+**Encoder only Model:** Understanding tasks where input and output are aligned in length. Tasks like **POS Tagging, NER**, etc. **Bert**
 
-**Encoder Decoder Model:** Tasks where input and output can be of different lengths like Translation. **Bart, T5**
+**Encoder Decoder Model:** Tasks where input and output can be of different lengths like **Translation**. **Bart, T5**
 
-**Decoder Only Models:**  Used for generative tasks where the model produces output tokens one-by-one, such as text generation, summarization, or chatbots. **GPT, BLOOM, Jurassic, LLaMa**
+**Decoder Only Models:**  Used for generative tasks where the model produces output tokens one-by-one, such as **text generation, summarization, or chatbots**. **GPT, BLOOM, Jurassic, LLaMa**
 
 **Types of Attention:**
 
@@ -60,6 +60,33 @@ Technique used in deep neural networks (including Transformers) to help with tra
 
 **In-Context Learning:** Providing examples inside context window
 
-**Encodi**
+**Encoder-only (Autoencoding Models):**
 
+Pre-trained using **Masked Language Modeling (MLM)**: Tokens are randomly masked and the masked tokens are predicted to reconstruct the original sentence ("**denoising**").
 
+Model has understanding of full context of a token, not just of words that come before.
+
+**Good Use Cases:**
+Sentiment Analysis
+Named Entity Recognition
+Word classification
+
+**Decoder-only (Autoregressive Models):**
+
+Pre-trained using **Causal Language Modelling (CLM)**: Predict next token based on previous sequence of tokens (**Full Language Modeling**).
+
+Mask input sequence and can only see input tokens leading up to the token in question, has no knowledge of end of sentence. Model then iterates over input sequence one by one to predict following token.
+
+Context is unidirectional.
+
+**Good Use Cases:**
+Text Generation
+
+**Encoder-Decoder (Sequence to Sequence Models):**
+
+T5- pretrained using **Span Corruption:** Masks random sequences of input tokens, replaced with a unique **sentinel token** (special tokens added to vocabulary). Decoder is reconstructs masked sequences autoregressively. Output is sentinel token, followed by predicted tokens.
+
+**Good Use Cases:**
+Translation
+Summarization
+Question answering
