@@ -91,9 +91,10 @@ Translation
 Summarization
 Question answering
 
-**Reduce Memory:**
+**Reduce Memory to store and train models:**
 
-Quantization: Reducing precision from 32-bit floating point to 16-bit floating point or 8-bit integer.
+**Quantization**: Reducing precision from 32-bit floating point to 16-bit floating point or 8-bit integer.
 
 **FP32 to FP16:** 4 bytes to 2 bytes
-
+**BF16:** Truncated FP32 (2 bytes), popular choice: maintains dynamic range of FP32, reduces memory into half.
+**FP32 to INT8:** 4 bytes to 1 byte.
