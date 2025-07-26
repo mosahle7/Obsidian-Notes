@@ -22,3 +22,15 @@ Avoid by:
 with **FLAN (Fine-tuned Language Net):**
 set of instructions used to perfom intsruction fine-tuning
 
+**LLM Evaluation - Metrics:**
+
+**ROUGE (Recall Oriented Understudy for Jesting Evaluation ):** Assess quality of automatically generated summaries by comparijg them to human generated summaries.
+
+**Recall**,**Precision**,**F1 Score**
+**ROGUE-1,2 , ROGUE-L**
+
+
+**BLEU (Bilingual Evaluation Understudy):** Algorithm evaluated to evaluate quality of machine translated text by comparing it to human generated translations.
+
+
+
