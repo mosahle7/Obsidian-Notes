@@ -16,3 +16,9 @@ Avoid by:
 **fine-tune on multipl tasks:** requires (50-100) 1000 eges across many tasks 
 
 **Parameter Efficient Fine-tuning (PEFT):** Set of technique ste preserves weights of original LLM and train sonlyu a small numbe rof task-specific adapter layers and parameters. 
+
+**Multi-Task Fine-tuning:**
+
+with **FLAN (Fine-tuned Language Net):**
+set of instructions used to perfom intsruction fine-tuning
+
