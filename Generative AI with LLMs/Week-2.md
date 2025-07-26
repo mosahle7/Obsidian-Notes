@@ -37,3 +37,24 @@ Avg. of precision of multigrams
 - **GLUE (General Language Understanding Evaluation), SUPERGLUE, HELM**
 - **Massive Multitask Language Understanding (MMLU):** modern LLMs.
 - **BIG-bench:** 
+
+**PEFT:**
+
+Only train a set of parameters or train with additional layers.
+Less prone to catastrophic forgetting problems
+
+**PEFT Methods:**
+
+**Selective:** Select subset of initial LLM parameters to fine-tune.
+**Reparameterization:** Reparameterize model weights using a low-rank representation. **LoRA**
+**Additive:** Add trainable layers or parameters to model.
+- **Adapters**: Add new trainable layers to architecture of model inside encoder or decoder components after attention of feed-forward layers.
+- **Soft Prompts**: Keep model architecture frozen and focus on manipulating input to achieve better performance. Adding trainable parameters to prompt embeddings or keeping i/p fixed and retraining embedding weights. **Prompt Tuning**.
+
+**Low-Rank Adaptation of LLMs (LoRA):**
+
+Freeze most of the original LLM parameters and inject a **2 rank decomposition matrices** alongside og wts. Dimensions of smaller matrices r set so that their product is a mt with smae dims as the weightsthey r modifying. Train smaller matrices using supervised learning process. 
+
+Matrix multiply low rank matrices
+Add to original weights
+
