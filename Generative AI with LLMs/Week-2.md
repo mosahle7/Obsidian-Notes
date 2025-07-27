@@ -58,3 +58,17 @@ Freeze most of the original LLM parameters and inject a **2 rank decomposition m
 Matrix multiply low rank matrices
 Add to original weights
 
+rank: 4-32
+
+**Prompt Tuning:**
+
+Add additional trainable tokens to prompt and supervised learning process determines their optimal values. Set of trainable tokens is called a soft prompt, and it gets prepended to embedding vectors that represent your input text. The soft prompt vectors have the same length as the embedding vectors of the language tokens.
+
+**(20 -100)** virtual tokens.
+
+Weights of the large language model are frozen and the underlying model does not get updated. Instead, the embedding vectors of the soft prompt gets updated over time to optimize the model's completion of the prompt.
+
+One potential issue to consider is the interpretability of learned virtual tokens. Because the soft prompt tokens can take any value within the continuous embedding vector space, trained tokens don't correspond to any known token, word, or phrase in the vocabulary of the LLM. However, an analysis of the nearest neighbor tokens to the soft prompt location shows that they form tight semantic clusters. In other words, the words closest to the soft prompt tokens have similar meanings. The words identified usually have some meaning related to the task, suggesting that the prompts are learning word like representations.
+
+
+
