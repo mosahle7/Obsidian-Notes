@@ -18,5 +18,18 @@ The action here is the act of generating text. The action space is the token voc
 
 The action that the model will take, meaning which token it will choose next, depends on the prompt text in the context and the probability distribution over the vocabulary space. The reward is assigned based on how closely the completions align with human preferences.
 
-**RL Algorithm:** **Proximal Policy Optimization  (PPO)** :
+**RL Algorithm:** **Proximal Policy Optimization  (PPO)**, **Q-Learning**
 
+**Potential Problem - Reward Hacking:**
+
+The agent learns to cheat the system by favoring actions that maximize the reward received even if those actions don't align well with the original objective. 
+
+To prevent reward hacking from happening, use the initial instruct LLM as performance reference (reference model). The weights of the reference model are frozen and are not updated during iterations of RHF. This way, it maintains a single reference model to compare to. During training, each prompt is passed to both models, generating a completion by the reference LLM and the intermediate LLM updated model.
+
+Compare the two completions and calculate a value called the **Kullback-Leibler divergence, or KL divergence**, a statistical measure of how different two probability distributions are. It is calculated for each generated token across the whole vocabulary of the LLM. Using a softmax function, the number of probabilities are reduced to much less than the full vocabulary size. 
+
+After KL divergence between the two models are calculated, a penalty term is added to the reward calculation. This will penalize the RL updated model if it shifts too far from the reference LLM and generates completions that are too different.
+
+**Scaling Human Feedback:**
+
+**Model self-supervision - Constitutional AI**
