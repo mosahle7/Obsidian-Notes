@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI with LLMs/Week-2.md",
+                "file": "Generative AI with LLMs/Week-3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-2"
+              "title": "Week-3"
             }
           },
           {
@@ -197,6 +197,8 @@
   },
   "active": "1c93db89dcd0dfae",
   "lastOpenFiles": [
+    "Generative AI with LLMs/Week-2.md",
+    "Generative AI with LLMs/Week-3.md",
     "Pasted image 20250726184915.png",
     "Pasted image 20250726184542.png",
     "Pasted image 20250726184330.png",
@@ -205,7 +207,6 @@
     "Pasted image 20250726165522.png",
     "Sequence Models/Recurrent Neural Networks.md",
     "Generative AI with LLMs/Week-1.md",
-    "Generative AI with LLMs/Week-2.md",
     "Prompt Engineering.md",
     "Coursera ML/Supervised Learning.md",
     "Web Dev/Backend.md",
