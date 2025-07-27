@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI with LLMs/Week-3.md",
+                "file": "Generative AI with LLMs/Generative AI with LLMs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-3"
+              "title": "Generative AI with LLMs"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -197,9 +196,13 @@
   },
   "active": "1c93db89dcd0dfae",
   "lastOpenFiles": [
+    "Coursera ML/Coursera ML.md",
+    "Coursera ML/Supervised Learning.md",
+    "Generative AI with LLMs/Week-1.md",
+    "Generative AI with LLMs/Generative AI with LLMs.md",
+    "Generative AI with LLMs/Week-3.md",
     "Pasted image 20250727152809.png",
     "Generative AI with LLMs/Week-2.md",
-    "Generative AI with LLMs/Week-3.md",
     "Pasted image 20250726184915.png",
     "Pasted image 20250726184542.png",
     "Pasted image 20250726184330.png",
@@ -207,12 +210,9 @@
     "Pasted image 20250726183943.png",
     "Pasted image 20250726165522.png",
     "Sequence Models/Recurrent Neural Networks.md",
-    "Generative AI with LLMs/Week-1.md",
     "Prompt Engineering.md",
-    "Coursera ML/Supervised Learning.md",
     "Web Dev/Backend.md",
     "Coursera ML/Advanced Learning Algorithms.md",
-    "Coursera ML/Coursera ML.md",
     "Sequence Models/Coursera DNN.md",
     "README.md",
     "2025-07-22.md",
