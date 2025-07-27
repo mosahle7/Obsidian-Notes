@@ -18,3 +18,5 @@ The action here is the act of generating text. The action space is the token voc
 
 The action that the model will take, meaning which token it will choose next, depends on the prompt text in the context and the probability distribution over the vocabulary space. The reward is assigned based on how closely the completions align with human preferences.
 
+**RL Algorithm:** **Proximal Policy Optimization  (PPO)** :
+
