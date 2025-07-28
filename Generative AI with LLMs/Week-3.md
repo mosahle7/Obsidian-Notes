@@ -53,3 +53,29 @@ A technique that focuses on having a larger teacher model train a smaller stude
  Freezing teacher model weights, it is used to generate completions for training data. At same time, completions are generated for training data using student model. 
  
  Knowledge distillation between teacher and student model is achieved by minimizing a loss function called **distillation loss**. To calculate this loss, distillation uses probability distribution over tokens produced by teacher model softmax layer. Since teacher model is already fine-tuned on training data, probability distribution likely closely matches ground truth data and does not have much variation in tokens. To address this, distillation applies a trick by adding temperature parameter to softmax function. With temperature parameter greater than one, probability distribution becomes broader and less strongly peaked. This softer distribution provides a set of tokens similar to ground truth tokens.
+
+- **Teacher model output** → **Soft Labels** (probability distribution via softmax with temperature).
+- **Student model prediction** → **Soft Predictions** (probability distribution via softmax with temperature).
+
+In parallel, you train the student model to generate the correct predictions 
+
+based on your ground truth training data. 
+
+Here, you don't vary the temperature setting and 
+
+instead use the standard softmax function.
+
+- - **Ground truth data (true targets)** → **Hard Labels** (one-hot encoded or discrete tokens).
+- **Student model argmax output** → **Hard Predictions** (most probable token per position).
+
+The loss between these two is the student loss. 
+
+The combined distillation and student losses are used to update the weights 
+
+of the student model via back propagation.
+
+distillation is not as effective for generative decoder models. 
+
+It's typically more effective for encoder only models, 
+
+such as Burt that have a lot of representation redundancy.
