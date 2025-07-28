@@ -112,3 +112,8 @@ RAG architectures can be used to integrate multiple types of external informatio
 
 **Vector Databases**: Particular implementation of Vector Store, where each vector is identified by a key. Enables a citation to be included in completion.
 
+**Requirements for using LLMs to Power Applications:**
+
+- Plan Actions
+- Format Outputs
+- Validate Actions
