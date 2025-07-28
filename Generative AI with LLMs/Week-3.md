@@ -117,3 +117,6 @@ RAG architectures can be used to integrate multiple types of external informatio
 - Plan Actions
 - Format Outputs
 - Validate Actions
+
+**Chain of Thought Prompting**
+
