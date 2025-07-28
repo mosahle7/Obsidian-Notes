@@ -46,3 +46,10 @@ The second part of the process performs **reinforcement learning**. This stage i
 
 **Distillation:**
 
+A technique that focuses on having a larger teacher model train a smaller student model.
+
+ Student model learns to statistically mimic the behavior of the teacher model, just in the final prediction layer or in the model's hidden layers as well.
+
+ Freezing teacher model weights, it is used to generate completions for training data. At same time, completions are generated for training data using student model. 
+ 
+ Knowledge distillation between teacher and student model is achieved by minimizing a loss function called **distillation loss**. To calculate this loss, distillation uses probability distribution over tokens produced by teacher model softmax layer. Since teacher model is already fine-tuned on training data, probability distribution likely closely matches ground truth data and does not have much variation in tokens. To address this, distillation applies a trick by adding temperature parameter to softmax function. With temperature parameter greater than one, probability distribution becomes broader and less strongly peaked. This softer distribution provides a set of tokens similar to ground truth tokens.
