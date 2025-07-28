@@ -120,3 +120,6 @@ RAG architectures can be used to integrate multiple types of external informatio
 
 **Chain of Thought Prompting**
 
+**Program-Aided Language Model (PAL):**
+
+pairs an LLM with an external code interpreter to carry out calculations.
