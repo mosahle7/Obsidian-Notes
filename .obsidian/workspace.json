@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -182,6 +183,8 @@
   },
   "active": "18ca82a4af5a065e",
   "lastOpenFiles": [
+    "Generative AI with LLMs/Week-2.md",
+    "Generative AI with LLMs/Week-3.md",
     "Coursera ML/Supervised Learning.md",
     "Pasted image 20250726183943.png",
     "Pasted image 20250726165522.png",
@@ -190,8 +193,6 @@
     "Generative AI with LLMs/Generative AI with LLMs.md",
     "Coursera ML/Coursera ML.md",
     "Generative AI with LLMs/Week-1.md",
-    "Generative AI with LLMs/Week-3.md",
-    "Generative AI with LLMs/Week-2.md",
     "Pasted image 20250726184915.png",
     "Pasted image 20250726184542.png",
     "Pasted image 20250726184330.png",
