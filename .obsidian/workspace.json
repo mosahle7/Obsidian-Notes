@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Generative AI with LLMs/Week-3.md",
+                "file": "LangChain for LLM Application Development/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-3"
+              "title": "Untitled"
             }
           },
           {
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -197,8 +196,10 @@
   },
   "active": "18ca82a4af5a065e",
   "lastOpenFiles": [
-    "Generative AI with LLMs/Week-2.md",
     "Generative AI with LLMs/Week-3.md",
+    "LangChain for LLM Application Development/Untitled.md",
+    "LangChain for LLM Application Development",
+    "Generative AI with LLMs/Week-2.md",
     "Coursera ML/Supervised Learning.md",
     "Pasted image 20250726183943.png",
     "Pasted image 20250726165522.png",

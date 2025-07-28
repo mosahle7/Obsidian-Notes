@@ -142,7 +142,11 @@ ReAct uses structured examples to show a large language model how to reason thr
 
 **LangChain**:
 
-Framework that provi
+Framework that provides with modular pieces that contain components necessary to work with LLMs. These components include **prompt templates** for many different use cases that can be used to format both input examples and model completions and **memory** to store interactions with an LLM. It also includes **pre-built tools** that enable you to carry out  a wide variety of tasks, including calls to external datasets and various APIs. 
+
+Connecting a selection of these individual components together results in a chain.
+
+**Agent:** Used to interpret input from user and determine which tools to use to complete the task.
 
 **Model Hub: AWS Sagemaker JumpStart**
 
