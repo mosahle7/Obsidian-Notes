@@ -57,25 +57,13 @@ A technique that focuses on having a larger teacher model train a smaller stude
 - **Teacher model output** → **Soft Labels** (probability distribution via softmax with temperature).
 - **Student model prediction** → **Soft Predictions** (probability distribution via softmax with temperature).
 
-In parallel, you train the student model to generate the correct predictions 
+In parallel, the student model is trained to generate correct predictions based on ground truth training data. Here, temperature setting is not varied, and the standard softmax function is used.
 
-based on your ground truth training data. 
-
-Here, you don't vary the temperature setting and 
-
-instead use the standard softmax function.
-
-- - **Ground truth data (true targets)** → **Hard Labels** (one-hot encoded or discrete tokens).
+- **Ground truth data (true targets)** → **Hard Labels** (one-hot encoded or discrete tokens).
 - **Student model argmax output** → **Hard Predictions** (most probable token per position).
 
-The loss between these two is the student loss. 
+Loss between two is **student loss**. Combined distillation and student losses are used to update weights of student model via back propagation. 
 
-The combined distillation and student losses are used to update the weights 
+Not effective for generative decoder models, more effective for encoder only models, such as BERT, that have a lot of representation redundancy.
 
-of the student model via back propagation.
-
-distillation is not as effective for generative decoder models. 
-
-It's typically more effective for encoder only models, 
-
-such as Burt that have a lot of representation redundancy.
+Not reducing model size.
