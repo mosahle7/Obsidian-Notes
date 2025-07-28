@@ -67,3 +67,6 @@ Loss between two is **student loss**. Combined distillation and student losses a
 Not effective for generative decoder models, more effective for encoder only models, such as BERT, that have a lot of representation redundancy.
 
 Not reducing model size.
+
+**Post-Training Quantization (PTQ):**
+
