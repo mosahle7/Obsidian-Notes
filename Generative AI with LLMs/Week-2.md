@@ -62,7 +62,7 @@ rank: 4-32
 
 **Prompt Tuning:**
 
-Add additional trainable tokens to prompt and supervised learning process determines their optimal values. Set of trainable tokens is called a soft prompt, and it gets prepended to embedding vectors that represent your input text. The soft prompt vectors have the same length as the embedding vectors of the language tokens.
+Add additional trainable tokens to prompt and supervised learning process determines their optimal values. Set of trainable tokens is called a **soft prompt**, and it gets prepended to embedding vectors that represent your input text. The soft prompt vectors have the same length as the embedding vectors of the language tokens.
 
 **(20 -100)** virtual tokens.
 

@@ -79,3 +79,35 @@ Requires extra calibration step to statistically capture dynamic range of origi
 Sometimes small percentage reduction in model evaluation metrics.
 
 **Pruning:**
+
+Reduce model size for inference by eliminating weights that are not contributing much to overall model performance (0 or very close to 0).
+
+Some requires full retraining of model.
+Others fall into category of PEFT like LoRA.
+
+Reduces size of model and improves performance.
+
+**Difficulties:**
+
+- **Out of Date**
+- **Mathematical Calculations**
+- **Hallucination:** Tendency to generate text even when they don't know answer to a problem.
+
+**Retrieval Augmented Generation (RAG):**
+
+Framework  for building LLM powered systems that make use of external data sources and applications to overcome some of the limitations of models.
+
+Providing your model with external information, can improve both relevance and accuracy of its completions.
+
+Model component called **Retriever**, which consists of a **query encoder and an external data source**.
+
+The encoder takes the user's input prompt and encodes it into a form that can be used to query the data source.
+
+These two components are trained together to find documents within external data that are most relevant to the input query.  Retriever returns the best single or group of documents from the data source and combines the new information with the original user query. The new expanded prompt is then passed to the language model, which 
+generates a completion that makes use of the data.
+
+RAG architectures can be used to integrate multiple types of external information sources like local documents, wikis, expert systems, webpages, databases, **Vector Store**
+
+**Vector Store:** Contains vector representations of text. Useful data format for language models. Enables fast and efficient kind of relevant search based on similarity
+
+**Vector Databases**: Particular implementation of Vector Store, where each vector is identified by a key. Enables a citation to be included in completion.
