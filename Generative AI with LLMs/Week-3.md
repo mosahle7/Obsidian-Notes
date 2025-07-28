@@ -125,3 +125,20 @@ RAG architectures can be used to integrate multiple types of external informatio
 Pairs an LLM with an external code interpreter to carry out calculations. The method makes use of chain of thought prompting to generate executable Python scripts. Then, they are passed to an interpreter to execute.
 
 For overcoming mistakes in solving math problems.
+
+**ReAct (Reasoning and Action):**
+
+A prompting strategy that combines chain of thought reasoning with action planning.
+
+ReAct uses structured examples to show a large language model how to reason through a problem and decide on actions to take that move it closer to a solution.
+
+- **Question:** Example prompts start with a question that will require multiple steps to answer.
+
+- **Thought:**  A reasoning step that demonstrates to the model how to  tackle the problem and identify an **Action** to take.
+
+- **Observation:** This is where new information provided by the external search is brought into the context of the prompt.
+
+- For the model to interpret the prompt then repeats the cycle as many 
+- times as is necessary to obtain the final answer. 
+
+**LangChain**:
