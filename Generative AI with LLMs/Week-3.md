@@ -142,3 +142,6 @@ ReAct uses structured examples to show a large language model how to reason thr
 - times as is necessary to obtain the final answer. 
 
 **LangChain**:
+
+**Model Hub: AWS Sagemaker JumpStart**
+
