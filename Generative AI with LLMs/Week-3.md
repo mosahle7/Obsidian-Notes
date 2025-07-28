@@ -67,6 +67,15 @@ Loss between two is **student loss**. Combined distillation and student losses a
 Not effective for generative decoder models, more effective for encoder only models, such as BERT, that have a lot of representation redundancy.
 
 Not reducing model size.
-
+ 
 **Post-Training Quantization (PTQ):**
 
+Transforms model weights to a lower precision representation (16 bit FP/ 8 bit FP)
+
+Can be applied to weights or both weights and activation layers.
+
+Requires extra calibration step to statistically capture dynamic range of original parameter values.
+
+Sometimes small percentage reduction in model evaluation metrics.
+
+**Pruning:**
