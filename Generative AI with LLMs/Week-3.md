@@ -111,3 +111,4 @@ RAG architectures can be used to integrate multiple types of external informatio
 **Vector Store:** Contains vector representations of text. Useful data format for language models. Enables fast and efficient kind of relevant search based on similarity
 
 **Vector Databases**: Particular implementation of Vector Store, where each vector is identified by a key. Enables a citation to be included in completion.
+
