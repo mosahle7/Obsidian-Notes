@@ -122,4 +122,6 @@ RAG architectures can be used to integrate multiple types of external informatio
 
 **Program-Aided Language Model (PAL):**
 
-pairs an LLM with an external code interpreter to carry out calculations.
+Pairs an LLM with an external code interpreter to carry out calculations. The method makes use of chain of thought prompting to generate executable Python scripts. Then, they are passed to an interpreter to execute.
+
+For overcoming mistakes in solving math problems.
