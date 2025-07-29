@@ -1,7 +1,7 @@
 
 **Fine-Tuning:** Supervised learning process uses dataset of labeled egs to update weights of LLM, labeled egs are prompt completion pairs.
 
-**Instruction Fine Tuning**: Improves a model performance on a variety of tasks.
+**Instruction Fine Tuning**: Improves a model performance on a variety of tasks by training it to follow natural language instructions.
 
 Instruction fine tuning where all model weights are updated is known as **full fine-tuning**. 
 
@@ -22,7 +22,7 @@ set of instructions used to perform instruction fine-tuning.
 
 **LLM Evaluation - Metrics:**
 
-**ROUGE (Recall Oriented Understudy for Jesting Evaluation ):** Assess quality of automatically generated summaries by comparing them to human generated summaries.
+**ROUGE (Recall Oriented Understudy for Gisting Evaluation ):** Assess quality of automatically generated summaries by comparing them to human generated summaries.
 
 **Recall**,**Precision**,**F1 Score**
 **ROGUE-1,2 , ROGUE-L**
@@ -30,13 +30,13 @@ set of instructions used to perform instruction fine-tuning.
 
 **BLEU (Bilingual Evaluation Understudy):** Algorithm evaluated to evaluate quality of machine translated text by comparing it to human generated translations.
 
-Avg. of precision of multigrams
+Avg. of precision of multigrams.
 
 **Evaluation Benchmarks:**
 
 - **GLUE (General Language Understanding Evaluation), SUPERGLUE, HELM**
 - **Massive Multitask Language Understanding (MMLU):** modern LLMs.
-- **BIG-bench:** 
+- **BIG-bench:**
 
 **PEFT:**
 
@@ -53,12 +53,12 @@ Less prone to catastrophic forgetting problems
 
 **Low-Rank Adaptation of LLMs (LoRA):**
 
-Freeze most of the original LLM parameters and inject a **2 rank decomposition matrices** alongside og wts. Dimensions of smaller matrices r set so that their product is a mt with smae dims as the weightsthey r modifying. Train smaller matrices using supervised learning process. 
+Freeze most of the original LLM parameters and inject a **2 low-rank decomposition matrices** alongside original weights. Dimensions of smaller matrices are set so that their product is having same dimensions as the weights they are modifying. Train smaller matrices using supervised learning process. 
 
 Matrix multiply low rank matrices
 Add to original weights
 
-rank: 4-32
+**Rank**: 4-32
 
 **Prompt Tuning:**
 
