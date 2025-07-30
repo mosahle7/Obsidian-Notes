@@ -20,3 +20,7 @@ Sequence of steps that connects LLMs with inputs, tools, or prompts to perform a
 **Map_reduce**
 **Refine**
 **Map_rerank**
+
+**Evaluation**
+
+**LangChain Evaluation Platform**
