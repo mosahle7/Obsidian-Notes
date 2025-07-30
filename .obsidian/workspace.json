@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -195,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18ca82a4af5a065e",
+  "active": "9222dad372a31bca",
   "lastOpenFiles": [
+    "RAG",
     "Generative AI with LLMs/Week-2.md",
     "Generative AI with LLMs/Week-1.md",
     "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
