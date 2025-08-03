@@ -21,4 +21,8 @@ Rigid, ignores content and provides no way of ranking.
 Useless alone.
 
 **Keyword Search:**
-
+**TF-IDF (Term Frequency - Inverse Document Frequency)**
+**BM25 (Best Matching 25):**
+**Term Frequency Saturation**
+**Document Length Normalization**
+2 Tunable Parameters: **k_1** and **b**
