@@ -22,7 +22,14 @@ Useless alone.
 
 **Keyword Search:**
 **TF-IDF (Term Frequency - Inverse Document Frequency)**
+
 **BM25 (Best Matching 25):**
-**Term Frequency Saturation**
-**Document Length Normalization**
+**Term Frequency Saturation** (1.2-2)
+**Document Length Normalization** (0-1)
 2 Tunable Parameters: **k_1** and **b**
+
+**Pros:**
+Simple
+Guaranteed keyword matching
+**Cons:**
+When prompt contains different words, but same meaning
