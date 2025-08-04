@@ -29,6 +29,14 @@ Compare the two completions and calculate a value called the **Kullback-Leibler 
 
 After KL divergence between the two models are calculated, a penalty term is added to the reward calculation. This will penalize the RL updated model if it shifts too far from the reference LLM and generates completions that are too different.
 
+**Losses:**
+
+**Policy Loss (PPO Clipped Objective):** Encourages actions that lead to high rewards, but avoid big jumps.
+**Value Loss:** Trains the value head to better predict future rewards.
+**Entropy Loss:** Prevents model from becoming too deterministic, helps in generating diverse responses.
+
+Gradient descent is done on this total loss to update policy model weights and value head weights.
+
 **Scaling Human Feedback:**
 
 **Model self-supervision - Constitutional AI:**

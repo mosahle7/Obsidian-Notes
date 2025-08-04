@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -212,14 +213,14 @@
   "active": "d1f4233108e89111",
   "lastOpenFiles": [
     "Generative AI with LLMs/Week-2.md",
+    "Generative AI with LLMs/Week-1.md",
+    "Generative AI with LLMs/Generative AI with LLMs.md",
+    "Generative AI with LLMs/Week-3.md",
     "Untitled.md",
     "Prompt Engineering.md",
     "Coursera ML/Supervised Learning.md",
     "Coursera ML/Advanced Learning Algorithms.md",
     "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
-    "Generative AI with LLMs/Week-3.md",
-    "Generative AI with LLMs/Week-1.md",
-    "Generative AI with LLMs/Generative AI with LLMs.md",
     "RAG/Week-2.md",
     "Pasted image 20250804120447.png",
     "RAG/Week-1.md",
