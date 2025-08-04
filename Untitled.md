@@ -1,0 +1,1 @@
+Generative AI with LLMs, Prompt Engineering, Fastapi, Sequence Models, LangChain, RAG
