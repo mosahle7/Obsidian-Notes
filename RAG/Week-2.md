@@ -60,4 +60,5 @@ Control weight of keyword vs semnatic ranking.
 
 **Retriever Quality Metrics:**
 
-**Precision**
+**Precision**, **Recall**
+**Mean Average PrecisIon (MAP@K)**
