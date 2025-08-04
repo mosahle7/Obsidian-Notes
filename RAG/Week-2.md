@@ -57,3 +57,7 @@ Repeat process.
 Control weight of keyword vs semnatic ranking.
 
 **Hyperparameters:** k, beta (weight rankings)
+
+**Retriever Quality Metrics:**
+
+**Precision**
