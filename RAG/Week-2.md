@@ -37,3 +37,8 @@ When prompt contains different words, but same meaning
 **Semantic Search:**
 
 Generate vectors by running doc and prompt through a mathematical model called an embedding model, it map tokens to a location in space, represented by a vector
+
+**Measuring Vector Distance:**
+Euclidean Distance
+Cosine Similarity
+Dot Product
