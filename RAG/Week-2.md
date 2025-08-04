@@ -4,7 +4,7 @@
 **Hybrid Search:**
 **Keyword Search:** Looks for exact words.
 **Semantic Search:** Looks for similar meaning.
-**Metadata Filtering:** Excludes documents based om rigid criteria.
+**Metadata Filtering:** Excludes documents based on rigid criteria.
 
 **Metadata Filtering:**
 
@@ -13,7 +13,7 @@ Uses  a rigid criteria to narrow down docs based on metadata like title, author,
 **Pros:**
 Simple to understand and debug.
 Fast, optimized, mature and reliable.
-Enforces strict retrieval rules
+Enforces strict retrieval rules.
 
 **Cons:**
 Not true search.
