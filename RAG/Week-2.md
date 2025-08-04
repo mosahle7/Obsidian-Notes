@@ -29,10 +29,10 @@ Useless alone.
 2 Tunable Parameters: **k_1** and **b**
 
 **Pros:**
-Simple
-Guaranteed keyword matching
+Simple.
+Guaranteed keyword matching.
 **Cons:**
-When prompt contains different words, but same meaning
+When prompt contains different words, but same meaning.
 
 **Semantic Search:**
 
