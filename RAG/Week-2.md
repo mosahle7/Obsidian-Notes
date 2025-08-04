@@ -11,7 +11,7 @@
 Uses  a rigid criteria to narrow down docs based on metadata like title, author, creation date, access privileges, etc.
 
 **Pros:**
-Simple to understand an debug.
+Simple to understand and debug.
 Fast, optimized, mature and reliable.
 Enforces strict retrieval rules
 
@@ -42,3 +42,18 @@ Generate vectors by running doc and prompt through a mathematical model called a
 Euclidean Distance
 Cosine Similarity
 Dot Product
+
+**Contrast Training** on Embedding model, using the contrast provided by positive and negative egs to evaluate its performance.
+
+Update internal parameters based on scoring positive and negative pairs.
+Repeat process.
+
+100s or 1000s of dimensions
+
+**Hybrid Search:**
+
+2 Ranked Lists combined using **Reciprocal Rank Fusion**
+
+Control weight of keyword vs semnatic ranking.
+
+**Hyperparameters:** k, beta (weight rankings)
