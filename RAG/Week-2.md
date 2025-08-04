@@ -54,7 +54,7 @@ Repeat process.
 
 2 Ranked Lists combined using **Reciprocal Rank Fusion**
 
-Control weight of keyword vs semnatic ranking.
+Control weight of keyword vs semantic ranking.
 
 **Hyperparameters:** k, beta (weight rankings)
 
