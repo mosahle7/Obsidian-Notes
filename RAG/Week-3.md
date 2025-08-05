@@ -52,4 +52,9 @@ Optimized for ANN Search
 Practice of breaking longer text docs from knowledge base to smaller text chunks.
 
 **Token Limits, Improved Relevancy, Ensures only relevant text**.
-Overlapping
+
+**Overlapping Chunking**
+**Recursive Character Splitting:** Splitting text into chunks at a specified character, for eg: newlines.
+Variable chunk size, better accounts for doc structure. 
+
+**Ad**
