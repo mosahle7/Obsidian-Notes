@@ -57,4 +57,13 @@ Practice of breaking longer text docs from knowledge base to smaller text chunks
 **Recursive Character Splitting:** Splitting text into chunks at a specified character, for eg: newlines.
 Variable chunk size, better accounts for doc structure. 
 
-**Ad**
+**Advanced Chunking:**
+
+**Semantic Chunking:** Tries to place sentences together in chunks if they have similar meaning.
+
+**Pros:** Follows author's train of thought, smarter chunk boundaries, high recall and precision.
+
+**Cons:** Computationally expensive, Repeated Vec calcs.
+
+**Language Based Chunking:** Prompt LLM to create chunks from a doc.
+
