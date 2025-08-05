@@ -1,3 +1,3 @@
 - [[Generative AI with LLMs/Week-1]]
 - [[Generative AI with LLMs/Week-2]]
-- [[Week-3]]
+- [[Generative AI with LLMs/Week-3]]
