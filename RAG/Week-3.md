@@ -48,4 +48,8 @@ Optimized for ANN Search
 
 **Weaviate**
 
-**C**
+**Chunking:**
+Practice of breaking longer text docs from knowledge base to smaller text chunks.
+
+**Token Limits, Improved Relevancy, Ensures only relevant text**.
+Overlapping
