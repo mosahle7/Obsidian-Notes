@@ -31,3 +31,21 @@ Slight Variation: **Hierarchical Improvement**
 Enhances NSW by speeding up early parts of search.
 **Hierarchical Proximity Graph**
 
+If 1000 docs,
+Layer 1: All 1000 vectors with complete proximity graph 
+Layer 2: Randomly drop to 100 vectors and create new proximity graph.
+Layer 3: Randomly drop to just 10 vectors and create new proximity graph.
+
+Start from Layer 3 --> 2--> 1
+
+Run-time: **Logarithmic**
+
+**Vector DB:**
+
+Designed for Vector Search.
+Outperform RDBs
+Optimized for ANN Search
+
+**Weaviate**
+
+**C**
