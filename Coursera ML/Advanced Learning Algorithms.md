@@ -39,6 +39,8 @@ Fine tuning
 Recall, Precision and F1 Score
 
 #### **Decision Trees**:
+
+Supervised machine learning algorithm that splits data into branches based on feature values, forming a tree-like structure to make predictions.
 ##### **Learning**:
 
 1. Choose Feature to split which maximizes purity
