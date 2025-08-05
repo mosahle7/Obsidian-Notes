@@ -69,3 +69,32 @@ Variable chunk size, better accounts for doc structure.
 
 **Context-Aware Chunking**: Add context to every chunk.
 Costly pre-processing.
+
+**Query Parsing:**
+
+**Query Rewriting:** Use an LLM to rewrite query before it is submitted to retriever.
+
+**Named Entity Recognition:** Identifies and categorizes specific types of information within queries like places, people, dates, characters, etc for more targeted search and filtering strategies.
+**GLINER**
+
+**Hypothetical Document Embeddings (HyDE)**: 
+
+Uses generated hypothetical docs to help with search process.
+Embedding vec of hypo doc is used to complete search.
+Improves performance.
+Adds latency and some cost.
+
+**High Quality Retriever with Sophisticated Architectures:**
+
+**Bi-Encoder** (have been using)
+
+**Cross-Encoder:**
+
+Concatenate each doc with prompt
+Pass combined text into specialized embedding model
+Develops deep contextual understanding of interaction between prompt and doc because of concatenation.
+CE directly outputs relevance score (0-1).
+
+
+
+
