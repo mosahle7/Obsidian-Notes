@@ -9,4 +9,5 @@ venv\Scripts\activate.bat
 
 pip install fastapi[all]
 
+uvicorn app.main:app --reload
 
