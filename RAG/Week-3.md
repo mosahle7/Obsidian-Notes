@@ -26,6 +26,8 @@ Start with candidate vector and traverse to nearest neighbor that is closer to p
 
 Slight Variation: **Hierarchical Improvement**
 
+**Hierarchical Navigable Small World (HNSW):**
 
-
+Enhances NSW by speeding up early parts of search.
+**Hierarchical Proximity Graph**
 
