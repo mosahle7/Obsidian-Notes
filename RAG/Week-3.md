@@ -67,3 +67,5 @@ Variable chunk size, better accounts for doc structure.
 
 **Language Based Chunking:** Prompt LLM to create chunks from a doc.
 
+**Context-Aware Chunking**: Add context to every chunk.
+Costly pre-processing.
