@@ -21,6 +21,11 @@ Connect each node to its nearest neighbors.
 Can traverse graph moving along edges btw neighboring docs.
 Web-like structure
 
-Prompt 
+Prompt --> Prompt Vector 
+Start with candidate vector and traverse to nearest neighbor that is closer to prompt vector and that will become new candidate an this continues till candidate becomes the closest.
+
+Slight Variation: **Hierarchical Improvement**
+
+
 
 
