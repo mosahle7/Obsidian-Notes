@@ -10,3 +10,11 @@ To improve, retrievers use a family of algos: **Approximate Nearest Neighbors (A
 
 Uses clever data structures to enable significantly faster searches.
 Make a small sacrifice in quality of results
+
+ANN Algorithm: **Navigable Small World**
+
+Creates a DS called **Proximity Graph**:
+
+Compute distances btw all doc vectors.
+Add one node to graph for each doc.
+Connect each node to its nearest neighbors.
