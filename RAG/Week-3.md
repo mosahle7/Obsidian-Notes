@@ -18,3 +18,9 @@ Creates a DS called **Proximity Graph**:
 Compute distances btw all doc vectors.
 Add one node to graph for each doc.
 Connect each node to its nearest neighbors.
+Can traverse graph moving along edges btw neighboring docs.
+Web-like structure
+
+Prompt 
+
+
