@@ -75,6 +75,8 @@ more diverse and less correlated
 
 **No. of trees (B)**: 64-128, 100
 
+**Random Forest** is an ensemble method that builds multiple decision trees using random subsets of data and features, then combines their results to improve accuracy and reduce overfitting.
+
 **Boosted Trees**:
 Sequential Training of DTs and each new tree focuses on correcting errors by giving more weight on misclassified examples
 
