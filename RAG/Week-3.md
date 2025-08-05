@@ -95,6 +95,20 @@ Pass combined text into specialized embedding model
 Develops deep contextual understanding of interaction between prompt and doc because of concatenation.
 CE directly outputs relevance score (0-1).
 
+**Pros:** Better search than a bi encoder
+**Cons:** Scale terribly with millions or billions of docs, Can't preprocess as run on prompt-doc pairs, too inefficient to use as a default search technique.
 
+**ColBERT (Contextualized Late Interaction Over BERT):**
 
+Still generate doc vectors, try to capture deeper interactions btw text of prompt and each doc like cross encoder.
 
+Each token gets a vector
+
+Each token in prompt tries to find its most similar token in doc.
+Score: Sum of maximum relevancy score found by each token in a prompt
+
+**Pros:**
+Scalability of bi-encoder, rich interactions of cross-encoder
+Reasonably fast.
+**Cons:**
+Significant vector storage 
