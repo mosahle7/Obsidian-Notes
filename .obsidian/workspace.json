@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
+                "file": "Docker/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Models, Prompts and Parsers"
+              "title": "Docker"
             }
           }
         ],
@@ -212,11 +212,13 @@
   },
   "active": "2aa80e6ba99c9421",
   "lastOpenFiles": [
+    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
+    "Docker/Docker.md",
+    "Docker",
     "Generative AI with LLMs/Week-3.md",
     "Generative AI with LLMs/Week-2.md",
     "Generative AI with LLMs/Week-1.md",
     "Untitled.md",
-    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
     "Prompt Engineering.md",
     "Web Dev/Setting Up FASTAPI.md",
     "RAG/Week-3.md",
