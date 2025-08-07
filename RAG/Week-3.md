@@ -9,7 +9,7 @@ To improve, retrievers use a family of algos: **Approximate Nearest Neighbors (A
 **ANN:**
 
 Uses clever data structures to enable significantly faster searches.
-Make a small sacrifice in quality of results
+Make a small sacrifice in quality of results.
 
 ANN Algorithm: **Navigable Small World**
 
@@ -22,7 +22,7 @@ Can traverse graph moving along edges btw neighboring docs.
 Web-like structure
 
 Prompt --> Prompt Vector 
-Start with candidate vector and traverse to nearest neighbor that is closer to prompt vector and that will become new candidate an this continues till candidate becomes the closest.
+Start with candidate vector and traverse to nearest neighbor that is closer to prompt vector and that will become new candidate and this continues till candidate becomes the closest.
 
 Slight Variation: **Hierarchical Improvement**
 
@@ -32,9 +32,9 @@ Enhances NSW by speeding up early parts of search.
 **Hierarchical Proximity Graph**
 
 If 1000 docs,
-Layer 1: All 1000 vectors with complete proximity graph 
-Layer 2: Randomly drop to 100 vectors and create new proximity graph.
-Layer 3: Randomly drop to just 10 vectors and create new proximity graph.
+**Layer 1**: All 1000 vectors with complete proximity graph.
+**Layer 2**: Randomly drop to 100 vectors and create new proximity graph.
+**Layer 3**: Randomly drop to just 10 vectors and create new proximity graph.
 
 Start from Layer 3 --> 2--> 1
 
