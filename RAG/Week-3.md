@@ -112,3 +112,8 @@ Scalability of bi-encoder, rich interactions of cross-encoder
 Reasonably fast.
 **Cons:**
 Significant vector storage 
+
+**Reranking:**
+Post-retrieval process in which initial set of docs returned by a VB are reranked using high performing but expensive models.
+**Cross-Encoder re-rankers**
+**LLM Base Scoring:** Prompt-Doc pair directly sent to LLM and outputs relevance score.
