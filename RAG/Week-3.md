@@ -59,16 +59,16 @@ Variable chunk size, better accounts for doc structure.
 
 **Advanced Chunking:**
 
-**Semantic Chunking:** Tries to place sentences together in chunks if they have similar meaning.
+1. **Semantic Chunking:** Tries to place sentences together in chunks if they have similar meaning.
 
-**Pros:** Follows author's train of thought, smarter chunk boundaries, high recall and precision.
+- **Pros:** Follows author's train of thought, smarter chunk boundaries, high recall and precision.
 
-**Cons:** Computationally expensive, Repeated Vec calcs.
+- **Cons:** Computationally expensive, Repeated Vec calcs.
 
-**Language Based Chunking:** Prompt LLM to create chunks from a doc.
+2. **Language Based Chunking:** Prompt LLM to create chunks from a doc.
 
-**Context-Aware Chunking**: Add context to every chunk.
-Costly pre-processing.
+3. **Context-Aware Chunking**: Add context to every chunk.
+- Costly pre-processing.
 
 **Query Parsing:**
 
