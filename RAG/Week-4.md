@@ -23,3 +23,22 @@ Can get stuck in a loop
 **Top-K, Top-P** (more dynamic) 
 **Repetition Penalty**
 **Logit Biases**: Allow direct manipulation of token probs by adding or subtracting values from model's raw calculated probs.
+
+**Large:** 100-500 B params, **Small:** 1-10 B params
+
+**Benchmarks for LLMs:**
+
+**Automated Benchmarks**:
+Evaluated with code
+Common format is MCQ tests on various subjects
+**MMLU** covers 57 subs from STEM to humanities.
+
+**Human Evaluated Benchmarks:**
+2 anonymous LLMs respond to same prompt and asking human evaluators to choose which response they prefer.
+Uses **ELO** algo to create comparative leaderboards.
+**LLM Arena**: popular host.
+
+**LLM-as-a-judge Benchmarks:**
+One LLM rate another LLM's response to a collection of Q's.
+Judge LLM has access to set of reference answers.
+Cheap and Flexible Evaluation Method.
