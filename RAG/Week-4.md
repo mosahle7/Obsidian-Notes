@@ -70,29 +70,29 @@ Evaluates responses on:
 
 **Ragas** Metrics:
 
-**Response Relevancy:** 
+1. **Response Relevancy:** 
 
-Measures response is relevant to user prompt, regardless of accuracy.
+- Measures response is relevant to user prompt, regardless of accuracy.
 
-Response sent to Evaluator LLM and it generates new sample prompts that could have led to response.
+- Response sent to Evaluator LLM and it generates new sample prompts that could have led to response.
 
-Embed og and sample prompts to vectors and calc cosine similarity. Avg. similarity scores --> final relevancy measure.
+- Embed og and sample prompts to vectors and calc cosine similarity. Avg. similarity scores --> final relevancy measure.
 
-**Faithfulness:**
+2. **Faithfulness:**
 
-Measures whether response in consistent with retrieved information.
+- Measures whether response is consistent with retrieved information.
 
-LLM identifies all factual claims in response, more LLM calls to det if claims are factually supported by retrieved info. 
+- LLM identifies all factual claims in response, more LLM calls to det if claims are factually supported by retrieved info. 
 
-% of supported claims --> faithfulness.
+- % of supported claims --> faithfulness.
 
 **Agentic RAG:**
 
 **Workflows:**
-**Sequential**
-**Conditional**
-**Iterative**
-**Parallel**
+- **Sequential**
+- **Conditional**
+- **Iterative**
+- **Parallel**
 
 
 
