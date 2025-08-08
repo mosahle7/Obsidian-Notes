@@ -11,7 +11,7 @@ Smaller: 8-16 heads, Larger: over 100
 Enters **Feed Forward** Phase (Biggest part, contains most of params).
 Based on each token's original embedding, position and attention, it assigns updated vector embeds for each token.
 
-Repeat 8-64 times.
+Repeat **8-64** times.
 
 Probability of tokens
 
@@ -24,30 +24,30 @@ Can get stuck in a loop
 **Repetition Penalty**
 **Logit Biases**: Allow direct manipulation of token probs by adding or subtracting values from model's raw calculated probs.
 
-**Large:** 100-500 B params, **Small:** 1-10 B params
+**Large:** (100-500) B params, **Small:** (1-10) B params
 
 **Benchmarks for LLMs:**
 
-**Automated Benchmarks**:
-Evaluated with code
-Common format is MCQ tests on various subjects
-**MMLU** covers 57 subs from STEM to humanities.
+1. **Automated Benchmarks**:
+- Evaluated with code
+- Common format is MCQ tests on various subjects
+- **MMLU** covers 57 subs from STEM to humanities.
 
-**Human Evaluated Benchmarks:**
-2 anonymous LLMs respond to same prompt and asking human evaluators to choose which response they prefer.
-Uses **ELO** algo to create comparative leaderboards.
-**LLM Arena**: popular host.
+2. **Human Evaluated Benchmarks:**
+- 2 anonymous LLMs respond to same prompt and asking human evaluators to choose which response they prefer.
+- Uses **ELO** algo to create comparative leaderboards.
+- **LLM Arena**: popular host.
 
-**LLM-as-a-judge Benchmarks:**
-One LLM rate another LLM's response to a collection of Q's.
-Judge LLM has access to set of reference answers.
-Cheap and Flexible Evaluation Method.
+3. **LLM-as-a-judge Benchmarks:**
+- One LLM rate another LLM's response to a collection of Q's.
+- Judge LLM has access to set of reference answers.
+- Cheap and Flexible Evaluation Method.
 
 **Managing of Context Window of RAG Systems:** Include only chunks relevant to latest question.
 
 **Overcoming Hallucinations:**
 
-**Self-Consistency Methods:** Repeatedly generate responses to some prompt and confirm consistency.
+**Self-Consistency Methods:** Repeatedly generate responses to same prompt and confirm consistency.
 
 **Citation Generation:** Provide sources. **ContextCite** (attributes sentences in response to retrieved documents)
 
