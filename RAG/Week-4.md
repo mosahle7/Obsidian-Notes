@@ -42,3 +42,26 @@ Uses **ELO** algo to create comparative leaderboards.
 One LLM rate another LLM's response to a collection of Q's.
 Judge LLM has access to set of reference answers.
 Cheap and Flexible Evaluation Method.
+
+**Managing of Context Window of RAG Systems:** Include only chunks relevant to latest question.
+
+**Overcoming Hallucinations:**
+
+**Self-Consistency Methods:** Repeatedly generate responses to some prompt and confirm consistency.
+
+**Citation Generation:** Provide sources. **ContextCite** (attributes sentences in response to retrieved documents)
+
+**Evaluating Citation Quality in LLMs:**
+
+**ALCE Benchmark:** 
+
+Aims to measure how well a system references and cites sources when generating responses.
+
+Tests RAG responses on prepared prompts.
+
+Evaluates responses on:
+**Fluency:** How clearly
+**Correctness:** How factually accurate
+**Citation Quality:** How well do citations align with correct sources
+
+**Don't control hallucinations!!!**
