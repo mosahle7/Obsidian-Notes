@@ -65,3 +65,35 @@ Evaluates responses on:
 **Citation Quality:** How well do citations align with correct sources
 
 **Don't control hallucinations!!!**
+
+**Evaluating LLM Performance:**
+
+**Ragas** Metrics:
+
+**Response Relevancy:** 
+
+Measures response is relevant to user prompt, regardless of accuracy.
+
+Response sent to Evaluator LLM and it generates new sample prompts that could have led to response.
+
+Embed og and sample prompts to vectors and calc cosine similarity. Avg. similarity scores --> final relevancy measure.
+
+**Faithfulness:**
+
+Measures whether response in consistent with retrieved information.
+
+LLM identifies all factual claims in response, more LLM calls to det if claims are factually supported by retrieved info. 
+
+% of supported claims --> faithfulness.
+
+**Agentic RAG:**
+
+**Workflows:**
+**Sequential**
+**Conditional**
+**Iterative**
+**Parallel**
+
+
+
+

@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -211,11 +210,11 @@
   },
   "active": "18ca82a4af5a065e",
   "lastOpenFiles": [
-    "Generative AI with LLMs/Week-3.md",
+    "Generative AI with LLMs/Week-2.md",
     "RAG/Week-4.md",
+    "Generative AI with LLMs/Week-3.md",
     "RAG/Week-3.md",
     "RAG/Week-2.md",
-    "Generative AI with LLMs/Week-2.md",
     "Docker/Docker.md",
     "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
     "Docker",
