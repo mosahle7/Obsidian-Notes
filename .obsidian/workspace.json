@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG/Week-3.md",
+                "file": "RAG/Week-5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-3"
+              "title": "Week-5"
             }
           },
           {
@@ -197,6 +197,9 @@
   },
   "active": "d1f4233108e89111",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "RAG/Week-5.md",
+    "RAG/Week-3.md",
     "Generative AI with LLMs/Week-2.md",
     "Generative AI with LLMs/Week-3.md",
     "Generative AI with LLMs/Generative AI with LLMs.md",
@@ -204,7 +207,6 @@
     "Sequence Models/Coursera DNN.md",
     "RAG/RAG Coursera.md",
     "RAG/Week-4.md",
-    "RAG/Week-3.md",
     "RAG/Week-2.md",
     "Docker/Docker.md",
     "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
