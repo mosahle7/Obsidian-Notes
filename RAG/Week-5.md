@@ -14,3 +14,10 @@
 **Quality Metrics:** User satisfaction and system output quality.
 
 **How to Track**
+
+**LLM Observability Platforms:** 
+**Phoenix by Arize:**
+**Traces**
+**DATADOG** and **Grafana**
+
+**Custom Datasets**
