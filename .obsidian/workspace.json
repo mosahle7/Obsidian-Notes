@@ -11,10 +11,14 @@
             "id": "6671ba200d9c7043",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "RAG/Week-5.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week-5"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -178,6 +183,10 @@
   },
   "active": "6671ba200d9c7043",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Untitled 2.md",
+    "RAG/Week-5.md",
+    "RAG/RAG_M5.pdf",
     "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
     "Docker/Docker.md",
     "LangChain for LLM Application Development/L5-Evaluation.ipynb",
@@ -189,8 +198,6 @@
     "RAG/RAG_M3.pdf",
     "RAG/RAG_M2.pdf",
     "RAG/RAG_M1.pdf",
-    "RAG/RAG_M5.pdf",
-    "RAG/Week-5.md",
     "Untitled 1.md",
     "RAG/Week-3.md",
     "Generative AI with LLMs/Week-2.md",
@@ -202,7 +209,6 @@
     "RAG/Week-4.md",
     "RAG/Week-2.md",
     "Generative AI with LLMs/Week-1.md",
-    "Untitled.md",
     "Prompt Engineering.md",
     "Web Dev/Setting Up FASTAPI.md",
     "Coursera ML/Advanced Learning Algorithms.md",

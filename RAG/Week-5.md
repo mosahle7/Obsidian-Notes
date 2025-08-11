@@ -37,3 +37,25 @@ Quantized models: 8 or 4 bit
 **Matryoshka Quantization:** Only choose a subset of vector dims when doing things like comparing similarity.
 Dims are ordered so that early ones contain most differentiating information.
 
+**Reducing Latency:**
+**LLM Latency Techniques:**
+**Caching:**
+
+**Direct:** Return cached responses immediately when close matches are found, skipping slow generation step.
+**Personalized:** Feed cached response and user prompt to a small, fast LLM to make adjustments for better relevance.  
+
+**Retrieval Latency Techniques:**
+**Quantized Embeddings:** embeddings that are binary/low-quantized vectors.
+**Database Sharding:** Split large indexes across instances.
+
+**Security:**
+**Authenticate**
+**Data Tenant Separation:** Each user accesses only their authorized DB.
+
+**Multi-modal Model:** Text + Images, Audio and Video
+Typical Multi-modal RAG: Text + Images
+
+**MM Embedding-Model:** Embed multiple formats of data into same vector space.
+**Language Vision Model:** Processes both text and images using a shared token sequences.
+**Image Tokenization:** Breaks images into patch-based tokens, 100-1000 tokens.
+**MM Transformer:** Understands text-image relationships through a unified transformer.
