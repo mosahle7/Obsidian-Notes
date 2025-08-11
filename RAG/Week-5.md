@@ -20,4 +20,6 @@
 **Traces**
 **DATADOG** and **Grafana**
 
-**Custom Datasets**
+**Custom Datasets:**
+
+Collection of previously received prompts and information on its journey through system.
