@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a10bb76a0b363725",
+        "id": "c16f763edfa4166c",
         "type": "tabs",
         "children": [
           {
-            "id": "2aa80e6ba99c9421",
+            "id": "6671ba200d9c7043",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "New tab"
             }
           }
         ]
@@ -180,12 +176,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2aa80e6ba99c9421",
+  "active": "6671ba200d9c7043",
   "lastOpenFiles": [
-    "Generative AI with LLMs/LLMW1.pdf",
+    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
+    "Docker/Docker.md",
+    "LangChain for LLM Application Development/L5-Evaluation.ipynb",
+    "LangChain for LLM Application Development/L3-Chains.ipynb",
+    "LangChain for LLM Application Development/L2-Memory.ipynb",
+    "LangChain for LLM Application Development/L1-Model_prompt_parser.ipynb",
+    "LangChain for LLM Application Development/L6-Agents.ipynb",
+    "RAG/RAG_M4.pdf",
+    "RAG/RAG_M3.pdf",
+    "RAG/RAG_M2.pdf",
+    "RAG/RAG_M1.pdf",
+    "RAG/RAG_M5.pdf",
     "RAG/Week-5.md",
-    "Generative AI with LLMs/LLMW2.pdf",
-    "Generative AI with LLMs/LLMW3.pdf",
     "Untitled 1.md",
     "RAG/Week-3.md",
     "Generative AI with LLMs/Week-2.md",
@@ -196,9 +201,6 @@
     "RAG/RAG Coursera.md",
     "RAG/Week-4.md",
     "RAG/Week-2.md",
-    "Docker/Docker.md",
-    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
-    "Docker",
     "Generative AI with LLMs/Week-1.md",
     "Untitled.md",
     "Prompt Engineering.md",
@@ -208,8 +210,6 @@
     "Coursera ML/Supervised Learning.md",
     "RAG/Week-1.md",
     "Pasted image 20250804120447.png",
-    "RAG",
-    "LangChain for LLM Application Development",
     "Pasted image 20250726183943.png",
     "Pasted image 20250726165522.png",
     "Pasted image 20250727152809.png",
@@ -221,10 +221,6 @@
     "README.md",
     "2025-07-22.md",
     "Untitled.canvas",
-    "Web Dev",
-    "Generative AI with LLMs",
-    "Welcome.md",
-    "Sequence Models",
-    "Coursera ML"
+    "Welcome.md"
   ]
 }
