@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
+                "file": "LangChain for LLM Application Development/LangGraph.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Models, Prompts and Parsers"
+              "title": "LangGraph"
             }
           },
           {
@@ -195,13 +195,14 @@
   },
   "active": "6671ba200d9c7043",
   "lastOpenFiles": [
+    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
+    "LangChain for LLM Application Development/LangGraph.md",
     "RAG/Week-3.md",
     "RAG/RAG_M3.pdf",
     "RAG/Week-5.md",
     "Untitled.md",
     "Untitled 2.md",
     "RAG/RAG_M5.pdf",
-    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
     "Docker/Docker.md",
     "LangChain for LLM Application Development/L5-Evaluation.ipynb",
     "LangChain for LLM Application Development/L3-Chains.ipynb",
