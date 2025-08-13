@@ -14,5 +14,9 @@ Streaming
 Human-in-the-loop
 Controllability
 
-**State:**
+**State:** A shared DS that represents current snapshot of app. It is defined using a shared state schema.
+
+**Nodes:** Functions that encode logic of agents. 
+
+**Edges:** Functions that determine which Node to execute next based on current state. Conditional or Fixed.
 
