@@ -6,6 +6,7 @@
       {
         "id": "c16f763edfa4166c",
         "type": "tabs",
+        "dimension": 29.307805596465393,
         "children": [
           {
             "id": "6671ba200d9c7043",
@@ -13,24 +14,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG/Week-5.md",
+                "file": "RAG/Week-4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-5"
+              "title": "Week-4"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "8a6769bc9d4bcbdf",
+        "type": "tabs",
+        "dimension": 70.69219440353461,
+        "children": [
           {
             "id": "96113a0368a1f3ce",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "RAG/RAG_M3.pdf"
+                "file": "RAG/RAG_M4.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "RAG_M3"
+              "title": "RAG_M4"
             }
           }
         ]
@@ -90,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -192,16 +201,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6671ba200d9c7043",
+  "active": "96113a0368a1f3ce",
   "lastOpenFiles": [
     "RAG/Week-4.md",
+    "RAG/RAG_M4.pdf",
+    "RAG/Week-5.md",
+    "RAG/RAG_M3.pdf",
     "RAG/Week-3.md",
     "RAG/Week-2.md",
     "RAG/Week-1.md",
     "LangChain for LLM Application Development/LangGraph.md",
     "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
-    "RAG/RAG_M3.pdf",
-    "RAG/Week-5.md",
     "Untitled.md",
     "Untitled 2.md",
     "RAG/RAG_M5.pdf",
@@ -211,7 +221,6 @@
     "LangChain for LLM Application Development/L2-Memory.ipynb",
     "LangChain for LLM Application Development/L1-Model_prompt_parser.ipynb",
     "LangChain for LLM Application Development/L6-Agents.ipynb",
-    "RAG/RAG_M4.pdf",
     "RAG/RAG_M2.pdf",
     "RAG/RAG_M1.pdf",
     "Untitled 1.md",
@@ -237,7 +246,6 @@
     "Pasted image 20250726184330.png",
     "Web Dev/Backend.md",
     "README.md",
-    "2025-07-22.md",
     "Untitled.canvas"
   ]
 }

@@ -5,6 +5,8 @@ Tokens  --> **Dense Semantic Vector** (First Guess of meaning)
 		   **Position Vector** (Position in prompt)
 		   
 Enters **Attention mechanism**
+**Attention:** Process that lets model decide which tokens or words are most important to consider when generating each new token, so it can capture relations and context across entire sequence. 
+
 Mechanism used to assign attention: **Attention Head**
 Smaller: 8-16 heads, Larger: over 100
 
@@ -19,7 +21,7 @@ Probability of tokens
 Deterministic.
 Can get stuck in a loop
 
-**Tempearture**
+**Temperature**
 **Top-K, Top-P** (more dynamic) 
 **Repetition Penalty**
 **Logit Biases**: Allow direct manipulation of token probs by adding or subtracting values from model's raw calculated probs.
