@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LangChain for LLM Application Development/LangGraph.md",
+                "file": "RAG/Week-5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LangGraph"
+              "title": "Week-5"
             }
           },
           {
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d75c64fd250205cb",
@@ -195,9 +194,12 @@
   },
   "active": "6671ba200d9c7043",
   "lastOpenFiles": [
-    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
-    "LangChain for LLM Application Development/LangGraph.md",
+    "RAG/Week-4.md",
     "RAG/Week-3.md",
+    "RAG/Week-2.md",
+    "RAG/Week-1.md",
+    "LangChain for LLM Application Development/LangGraph.md",
+    "LangChain for LLM Application Development/Models, Prompts and Parsers.md",
     "RAG/RAG_M3.pdf",
     "RAG/Week-5.md",
     "Untitled.md",
@@ -219,15 +221,12 @@
     "Sequence Models/Recurrent Neural Networks.md",
     "Sequence Models/Coursera DNN.md",
     "RAG/RAG Coursera.md",
-    "RAG/Week-4.md",
-    "RAG/Week-2.md",
     "Generative AI with LLMs/Week-1.md",
     "Prompt Engineering.md",
     "Web Dev/Setting Up FASTAPI.md",
     "Coursera ML/Advanced Learning Algorithms.md",
     "Coursera ML/Coursera ML.md",
     "Coursera ML/Supervised Learning.md",
-    "RAG/Week-1.md",
     "Pasted image 20250804120447.png",
     "Pasted image 20250726183943.png",
     "Pasted image 20250726165522.png",
