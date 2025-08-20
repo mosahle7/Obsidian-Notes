@@ -40,8 +40,21 @@
               "icon": "lucide-file-text",
               "title": "RAG_M4"
             }
+          },
+          {
+            "id": "0fdaf9b18081ebe4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,6 +205,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -201,7 +215,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96113a0368a1f3ce",
+  "active": "0fdaf9b18081ebe4",
   "lastOpenFiles": [
     "RAG/Week-4.md",
     "RAG/RAG_M4.pdf",
